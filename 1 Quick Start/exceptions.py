@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 try:
-    fh = open('input.txt')
+    fh = open('../input/input.txt')
 
     for line in fh.readlines():
         print(line, end = '')
